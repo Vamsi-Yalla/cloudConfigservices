@@ -15,5 +15,5 @@ eureka.client.service-url.defaultZone= http://localhost:8761/eureka
 eureka.instance.hostname=localhost  
 
 
-payment-service.endpoints.endpoint.uri= http://PAYMENT-SERVICE/payment/create
-order-service.endpoints.endpoint.uri= http://ORDER-SERVICE/order/create
+endpoints.payment-service.uri= http://PAYMENT-SERVICE/payment/create
+endpoints.order-service.uri= http://ORDER-SERVICE/order/create
